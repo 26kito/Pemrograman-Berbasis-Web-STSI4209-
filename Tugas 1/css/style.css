@@ -1,4 +1,5 @@
-body {
+/* Login */
+body#login-page {
   background-color: #f8f9fa;
   display: flex;
   align-items: center;
@@ -79,3 +80,26 @@ body {
   margin-right: 8px;
   color: #6c757d;
 }
+/* Login */
+
+/* Dashboard */
+.navbar-custom {
+  background-color: #004c91;
+}
+.navbar-custom .nav-link {
+  color: #ffffff;
+}
+.navbar-custom .nav-link.active {
+  font-weight: bold;
+  color: #ffdd57;
+}
+.tracking-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.tracking-result {
+  margin-top: 20px;
+}
+/* Dashboard */
